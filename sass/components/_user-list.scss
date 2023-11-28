@@ -1,0 +1,87 @@
+.user-container {
+    width: 100%;
+    background-color: $primary-color-table;
+  }
+  
+  .user-profile {
+    text-align: center;
+    color: #009ef6;
+    border-bottom: 2px solid #009ef6;
+    padding-bottom: 14px;
+    padding-top: 14px;
+  }
+  
+  .user-search-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-input {
+    width: 100%;
+    margin-left: 15px;
+    padding: 15px;
+    border-bottom: 3px solid #3f3c47;
+    background-color: $primary-color-table;
+    outline: none;
+  }
+  
+  .user-list {
+    @include padding($left: 15px, $right: 15px);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  
+  .user-item {
+      @include padding($left: 15px, $right: 15px);
+    width: calc(100% / 3);
+    border: 1px solid rgb(29, 28, 28)
+  }
+  
+  .user-item-card {
+    display: flex;
+    padding: 20px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px -5px rgba(33, 35, 36, 0.9);
+    border-radius: 4px;
+    margin: 10px 0 20px;
+    
+  }
+  
+  .user-context-container {
+    width: 100%;
+  }
+  
+  .user-context {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .user-card-avatar {
+    margin-left: 30px;
+    align-self: flex-start;
+  }
+  
+  
+  .title-table {
+    text-align: center;
+  }
+  
+  .table {
+    width: 100%;
+    background-color: #808080;
+    padding: 5px 3px;
+  }
+  
+  table td {
+    background-color: $primary-color-table;
+    padding: 15px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 4px;
+  }
+  

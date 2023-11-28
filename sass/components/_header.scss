@@ -1,0 +1,28 @@
+.header{
+  @include padding($left: 25px, $right: 25px );
+    display: flex;
+    align-items: center;
+    background-color: $primary-color-table;
+    height: $height-header;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+ 
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    background-color: $icon-color;
+    border-radius: 50%;
+    overflow: hidden;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.nav-icon-logo{
+ fill: #009ef6;
+width: 30px;
+height: 30px;
+margin-right: 30px;
+}

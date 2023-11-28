@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  ::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: $primary-color-body;
+    margin: 0;
+    color: $primary-color;
+    padding-top: $height-header;
+  }
+
+  li {
+    list-style: none;
+  }
+  
+  img{
+    display: block;
+  }
+
+  @mixin padding($left, $right) {padding-left: $left;
+    padding-right: $right;}   
